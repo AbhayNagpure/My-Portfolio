@@ -1,0 +1,17 @@
+{
+  "name": "mern-project",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "start:frontend": "npm --workspace frontend run dev",
+    "start:backend": "npm --workspace backend run dev"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mongoose": "^9.6.1"
+  }
+}
