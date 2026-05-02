@@ -7,15 +7,15 @@ router.get("/", (req, res) => {
     hero: {
       name: "Abhay Nagpure",
       headline: "Hey, I'm Abhay, an engineer building the future of the web",
-      description: "I'm a full-stack developer and student at IIT ISM Dhanbad. I specialize in building responsive, high-performance web applications. When I'm not coding or pushing my physical limits in the gym, I'm out capturing moments with the FotoFreaks photography club.",
+      description: "I'm a MERN-stack developer and student at IIT Dhanbad. I specialize in building responsive, high-performance web applications. When I'm not coding or pushing my physical limits in the gym, I'm out capturing moments with the FotoFreaks photography club.",
       cta: "Let's Work Together",
     },
     about: {
       heading: "About Me",
-      content: "I am a 2nd-year B.Tech student at IIT ISM Dhanbad with a deep passion for software development. I love the entire process of bringing an idea to life on the web—from designing intuitive user interfaces to architecting robust backend systems. Beyond the screen, I'm obsessed with hitting the gym and pushing my physical limits, and I also channel my creativity as an active member of the FotoFreaks photography club.",
+      content: "I am a 2nd-year B.Tech student at IIT Dhanbad with a deep passion for software development. I love the entire process of bringing an idea to life on the web—from designing intuitive user interfaces to architecting robust backend systems. Beyond the screen, I'm obsessed with hitting the gym and pushing my physical limits, and I also channel my creativity as an active member of the FotoFreaks photography club.",
       highlights: [
-        "2nd-Year B.Tech at IIT ISM Dhanbad",
-        "Full-Stack Developer (MERN Stack)",
+        "2nd-Year B.Tech at IIT Dhanbad",
+        "MERN-Stack Developer",
         "Passionate about UI/UX and clean code",
         "Active member of FotoFreaks Photography Club",
         "Obsessed with the gym & pushing limits",

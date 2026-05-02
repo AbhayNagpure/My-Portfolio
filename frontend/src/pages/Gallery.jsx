@@ -36,7 +36,7 @@ export default function Gallery() {
     setVerifying(true);
     setPasswordError("");
     try {
-      const res = await fetch("http://localhost:5000/api/creatives/verify", {
+      const res = await fetch("https://my-portfolio-p3yl.onrender.com/api/creatives/verify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ adminPassword: passwordInput }),
@@ -63,7 +63,7 @@ export default function Gallery() {
     setAddStatus("");
     try {
       const adminPassword = sessionStorage.getItem("adminPwd");
-      const res = await fetch("http://localhost:5000/api/creatives", {
+      const res = await fetch("https://my-portfolio-p3yl.onrender.com/api/creatives", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ imageUrl, caption, category, adminPassword }),
@@ -146,8 +146,8 @@ export default function Gallery() {
               key={cat}
               onClick={() => setFilter(cat)}
               className={`rounded-full px-5 py-2 text-sm font-semibold transition-all ${filter === cat
-                  ? "bg-rose-500 text-white shadow-lg"
-                  : "bg-zinc-800/50 border border-zinc-700/50 text-zinc-400 hover:text-white hover:border-zinc-500"
+                ? "bg-rose-500 text-white shadow-lg"
+                : "bg-zinc-800/50 border border-zinc-700/50 text-zinc-400 hover:text-white hover:border-zinc-500"
                 }`}
             >
               {cat}
