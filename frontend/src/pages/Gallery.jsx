@@ -145,11 +145,10 @@ export default function Gallery() {
             <button
               key={cat}
               onClick={() => setFilter(cat)}
-              className={`rounded-full px-5 py-2 text-sm font-semibold transition-all ${
-                filter === cat
+              className={`rounded-full px-5 py-2 text-sm font-semibold transition-all ${filter === cat
                   ? "bg-rose-500 text-white shadow-lg"
                   : "bg-zinc-800/50 border border-zinc-700/50 text-zinc-400 hover:text-white hover:border-zinc-500"
-              }`}
+                }`}
             >
               {cat}
             </button>
