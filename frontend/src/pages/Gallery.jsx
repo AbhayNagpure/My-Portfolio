@@ -36,7 +36,7 @@ export default function Gallery() {
     setVerifying(true);
     setPasswordError("");
     try {
-      const res = await fetch("https://my-portfolio-k8i8.onrender.com/api/creatives/verify", {
+      const res = await fetch("http://localhost:5000/api/creatives/verify", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ adminPassword: passwordInput }),
@@ -63,7 +63,7 @@ export default function Gallery() {
     setAddStatus("");
     try {
       const adminPassword = sessionStorage.getItem("adminPwd");
-      const res = await fetch("https://my-portfolio-k8i8.onrender.com/api/creatives", {
+      const res = await fetch("http://localhost:5000/api/creatives", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ imageUrl, caption, category, adminPassword }),

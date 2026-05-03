@@ -17,8 +17,8 @@ From the workspace root:
 
 ## Features
 
-- Portfolio API at `https://my-portfolio-k8i8.onrender.com/api/portfolio`
-- Contact form POST endpoint at `https://my-portfolio-k8i8.onrender.com/api/contact`
+- Portfolio API at `http://localhost:5000/api/portfolio`
+- Contact form POST endpoint at `http://localhost:5000/api/contact`
 - React frontend with hero, about, skills, projects, testimonials, and contact sections
 
 ## Notes
